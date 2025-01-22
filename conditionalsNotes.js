@@ -1,0 +1,1 @@
+// these are notes on conditionals in programming ????

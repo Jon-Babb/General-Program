@@ -53,3 +53,9 @@ mathmatical operators in javaSprict
 ** gives exponentiation
 % gives modulus */
 
+console.log('Hello World');
+console.log("Hello, Wolrd");
+console.log('"Yep yep" big boy blastiose');
+let myName = "Steve";
+console.log(`Hello, ${myName}`);
+console.log(`2 + 3 = ${2 + 3}`)
