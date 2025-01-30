@@ -56,7 +56,7 @@ if (gradeNumber < 60){
 } else if (gradeNumber < 100){
     console.log(`${gradeNumber} = A`);
 }
-*/
+
 let temperature = 120;
 let precipatation = true;
 if (precipatation == true && temperature < 46){
@@ -76,3 +76,21 @@ if (precipatation == true && temperature < 46){
 } else if (temperature > 74){
     console.log("T-shirt and shorts");
 }
+
+let testVariable = null || "banana" || 1 || false;
+console.log(testVariable);
+
+let testVariable2 = null || false || 0;
+console.log(testVariable2)
+
+console.log(true && true && true && true);
+console.log(true && 0 && true && true);
+console.log(true && "false" && 5 && 3.14);
+
+console.log(!NaN);
+console.log(!1);
+console.log(!!NaN);
+*/
+
+let
+switch (new Date())
