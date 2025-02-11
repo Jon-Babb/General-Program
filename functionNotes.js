@@ -63,9 +63,38 @@ this.addEventListener("keydown", logKey);
 this.addEventListener(`keydown`, function(event){
     console.log(`You pressed ${event.key}`);
 });
-*/
+*
 //arrow function syntax
 
 this.addEventListener("keydown", (event) => {
     console.log(`you pressed ${event.key}`);
 });
+*/
+//exmpale for scope
+
+// let x = 1;
+// function a() {
+//     let y = 2;
+//     output(y);
+// }
+// function b() {
+//     let z = 3;
+//     output(z);
+// }
+// function output(value) {
+//     console.log(`Value = ${value}`);
+// }
+
+// output(x);
+// a();
+// b();
+
+//functions can have return values. this is something that the function send beack to the gloabl scope
+//some functions don't have a return value
+
+function randomLessThan(num) {
+    let x = Math.floor(Math.random() * num);
+    return x;
+}
+console.log(randomLessThan(4));
+
