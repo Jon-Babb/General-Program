@@ -111,9 +111,70 @@ put breaks in as fail safe
 continue is like a break
 instead of ejecting you it just skips to the end of the currect iteration
 */
-for(let i = 0; i < 21; i++){
-    if(i % 2 == 0 ){
-        continue;
-    }
-    console.log(i);
+// for(let i = 0; i < 21; i++){
+//     if(i % 2 == 0 ){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+// For, While, Do... While
+//DO while loop will excute at least once
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Arrays
+array is a collection of values, ordered collection of values
+
+let arrayName = [item1, itme2, item3];
+
+empty arrays
+let fakeArray1 = new Array();
+
+let fakeArray = [];
+*/
+let fruits = ["Apples", "Banana", "Canteloupes", "Durians",];
+
+console.log(fruits);
+console.log(fruits[3]);
+fruits[3] = "Watermelons"
+console.log(fruits);
+
+fruits[4] = "Strawberries"
+console.log(fruits)
+
+console.log(fruits.length);
+fruits[fruits.length] = "Dragonfruits"
+console.log(fruits);
+
+let exampleArray2 = ["Apple", 35, true, function() {console.log('hello');}, "array"];
+console.log(exampleArray2[0]);
+console.log(exampleArray2[1]);
+console.log(exampleArray2[3]);
+
+
+let obj1 = [3,5];
+let obj2 = [7,11];
+let dist = Math.sqrt((obj2[0] - obj1[0])**2 + (obj2[1] - obj1[1])**2)
+console.log(dist);
+
+let primes = [2, 3, 5, 7, 11, 13, 17];
+let i = 0;
+while(i < primes.length){
+    console.log(primes[1]);
+    i++;
 }
